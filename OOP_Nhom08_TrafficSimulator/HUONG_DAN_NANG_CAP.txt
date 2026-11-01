@@ -1,0 +1,18 @@
+NÂNG CẤP RẼ CONG VÀ NHƯỜNG ĐƯỜNG
+
+1. Giải nén ZIP, import thư mục TrafficSimulator_ReCong_NhuongDuong vào Eclipse như Maven Project (hoặc Existing Projects into Workspace).
+2. Chạy class vn.edu.ptit.oop.nhom08.Main.
+3. Thêm xe: chọn hướng di chuyển ban đầu (EAST = từ Tây sang Đông, WEST = từ Đông sang Tây, SOUTH = từ Bắc xuống Nam, NORTH = từ Nam lên Bắc).
+4. Chọn hướng đích: Đông/Tây/Bắc/Nam là hướng xe đi ra; chọn Ngẫu nhiên để chọn trong ba hướng không quay đầu.
+5. Cùng hướng không được trùng mã xe; vị trí không được trùng với cùng loại xe và hướng.
+
+THAY ĐỔI
+- VehiclePath.java: nội suy Bézier bậc hai theo độ dài cung cho xe rẽ.
+- Vehicle.java: hướng đích, trạng thái qua ngã tư.
+- AddVehicleDialog.java: thêm lựa chọn hướng đích/ngẫu nhiên.
+- IntersectionPanel.java: vẽ xe rẽ có góc xoay theo tiếp tuyến.
+
+GIỚI HẠN
+- Bộ điều phối giao lộ dùng khóa vùng giao nhau bảo thủ: tối đa một xe đi qua vùng trung tâm tại một thời điểm. An toàn hơn nhưng thông lượng thấp hơn giao thông thực.
+- Chưa mô phỏng làn rẽ riêng hoặc quy tắc rẽ phải khi đèn đỏ.
+- Đã kiểm tra biên dịch Java; chưa chạy kiểm thử đồ họa tương tác trong Eclipse.

@@ -1,0 +1,8 @@
+NÂNG CẤP 2 LOGIC - 4 LÀN
+
+1. Trong vùng giao nhau: so sánh hình học quỹ đạo; không khóa cả ngã tư nếu không giao nhau. Xe đã vào vùng giao nhau được ưu tiên; xe rẽ trái nhường xe đi thẳng ngược chiều.
+2. Nhập làn: trước mỗi lần di chuyển, kiểm tra khoảng cách thực theo tọa độ (x,y) với xe khác, kể cả xe xuất phát từ hướng khác; nếu khoảng cách không an toàn thì giữ nguyên vị trí, không giật lùi.
+
+Không sửa giao diện/đèn và không thêm người đi bộ.
+
+Lưu ý: mô hình dùng va chạm xấp xỉ bằng tâm xe, chưa mô phỏng kích thước hình chữ nhật xoay hoặc dự đoán vận tốc liên tục.

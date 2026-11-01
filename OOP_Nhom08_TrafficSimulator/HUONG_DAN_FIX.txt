@@ -1,0 +1,7 @@
+BẢN SỬA GIAO DIỆN 4 LÀN
+- IntersectionPanel: bản đồ 1200x760, đường Đông-Tây dài hơn, sửa vạch Bắc-Nam, vạch dừng, vạch sang đường, đèn tín hiệu đặt ngoài đường và hiển thị số giây.
+- VehiclePath: cập nhật hệ tọa độ cùng kích thước bản đồ; vị trí spawn nằm gần trong khung hình hơn.
+- TrafficLightController: một đồng hồ chung cho 2 trục; đỏ >= xanh + vàng, phần dư là thời gian cả hai trục cùng đỏ.
+- Giữ nguyên lựa chọn hướng đích, 4 làn, rẽ cong, kiểm tra mã xe theo hướng.
+CHẠY: import Maven Existing Maven Projects tại thư mục chứa pom.xml; Run Main.java.
+LƯU Ý: thuật toán tránh va chạm của bản thử nghiệm chưa kiểm chứng mọi tình huống (nhất là nhập làn sau rẽ và hai xe vào vùng giao nhau đồng thời).

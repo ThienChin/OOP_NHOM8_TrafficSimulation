@@ -1,0 +1,14 @@
+TrafficSimulator - BẢN THỬ NGHIỆM 4 LÀN MỖI CHIỀU
+
+1. Mở dự án Maven bằng File > Import > Maven > Existing Maven Projects, chọn thư mục chứa pom.xml.
+2. Chạy vn.edu.ptit.oop.nhom08.Main (src/main/java).
+3. Mỗi chiều có 4 làn: làn 1 rẽ trái, làn 2/3 đi thẳng, làn 4 rẽ phải. Mỗi tuyến hai chiều tổng 8 làn.
+4. Chọn hướng đích hoặc Ngẫu nhiên ở Thêm phương tiện; xe được tự phân làn.
+5. Đã sửa việc xe đi thẳng và rẽ dùng hai hệ tọa độ khác nhau: nay đều sử dụng VehiclePath.
+6. Xe cùng làn giữ khoảng cách, khác làn có thể tiến song song; ngã tư kiểm tra giao cắt quỹ đạo gần xe đang đi.
+
+GIỚI HẠN BẢN THỬ:
+- Thuật toán tránh xung đột là xấp xỉ hình học, CHƯA phải mô phỏng giao thông thực tế đã kiểm chứng.
+- Không mô phỏng chuyển làn, giao thông hỗn hợp, độ dài xe theo vật lý hay luật đèn rẽ riêng.
+- Đã kiểm tra javac biên dịch mã nguồn chính thành công, chưa thử giao diện Eclipse trên máy người dùng.
+- File test JUnit cũ có thể cần cập nhật nếu API đã đổi; chạy Main không cần chạy test trước.
